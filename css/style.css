@@ -132,3 +132,35 @@ h1, h2, h3 {
   color: #ccc;
   font-size: 0.9rem;
 }
+
+/* Menù */
+.menu-section {
+  margin-bottom: 2.5rem;
+}
+
+.menu-section h2 {
+  border-bottom: 2px solid var(--rosso);
+  padding-bottom: 0.3rem;
+  margin-bottom: 1rem;
+}
+
+.menu-list {
+  list-style: none;
+}
+
+.menu-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 0.6rem 0;
+  border-bottom: 1px dashed #ddd;
+}
+
+.menu-list small {
+  display: block;
+  color: #777;
+}
+
+.menu-list .price {
+  margin-top: 0;
+}
