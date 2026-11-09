@@ -164,3 +164,51 @@ h1, h2, h3 {
 .menu-list .price {
   margin-top: 0;
 }
+
+/* Contatti */
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+}
+
+.info h2,
+.booking h2 {
+  margin-bottom: 0.75rem;
+}
+
+.info p {
+  margin-bottom: 0.3rem;
+}
+
+.info h2:not(:first-child) {
+  margin-top: 1.5rem;
+}
+
+.hours td {
+  padding: 0.3rem 1rem 0.3rem 0;
+}
+
+.booking form {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.booking label {
+  margin-top: 0.75rem;
+  font-weight: bold;
+}
+
+.booking input,
+.booking textarea {
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 1rem;
+}
