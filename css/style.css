@@ -212,3 +212,24 @@ h1, h2, h3 {
   font-family: inherit;
   font-size: 1rem;
 }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .header nav a {
+    margin: 0 0.75rem;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .cards,
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}
