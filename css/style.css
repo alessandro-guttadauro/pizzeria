@@ -55,7 +55,8 @@ h1, h2, h3 {
 .hero {
   text-align: center;
   padding: 5rem 1rem;
-  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), var(--rosso-scuro);
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url("../img/pizza-margherita.jpg") center / cover no-repeat;
   color: #fff;
 }
 
@@ -232,4 +233,14 @@ h1, h2, h3 {
   .contact-grid {
     grid-template-columns: 1fr;
   }
+}
+
+.credits {
+  margin-top: 0.3rem;
+  font-size: 0.75rem;
+  color: #999;
+}
+
+.credits a {
+  color: #bbb;
 }
