@@ -17,10 +17,17 @@ pizzeria/
 ├── index.html
 ├── menu.html
 ├── contatti.html
+├── favicon.svg
 ├── css/
 │   └── style.css
+├── img/
+│   └── pizza-margherita.jpg
 └── README.md
 ```
+
+## Sito online
+
+👉 https://alessandro-guttadauro.github.io/pizzeria/
 
 ## Come aprirlo
 
@@ -38,9 +45,15 @@ Non serve installare nulla.
 - Barra di navigazione comune a tutte le pagine
 - Colori e font definiti con variabili CSS
 - Modulo di prenotazione (solo grafico)
+- Favicon in SVG
 
 ## Team
 
 - [@alessandro-guttadauro](https://github.com/alessandro-guttadauro)
 - [@Dany80213](https://github.com/Dany80213)
 - [@MattePavons](https://github.com/MattePavons)
+- [@SimoneGentile](https://github.com/SimoneGentile)
+
+## Crediti
+
+Foto della pizza: [Valerio Capello](https://commons.wikimedia.org/wiki/File:Eq_it-na_pizza-margherita_sep2005_sml.jpg), licenza [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
